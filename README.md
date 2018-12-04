@@ -16,8 +16,28 @@ Here we go! Volunteers will be uploading their source_data/ files over the next 
 
 The google doc How-To document is [here](https://docs.google.com/document/d/1k3ZzAF8vrJeIcMN3q5g_l7WJtoybokvq5ueYVH0dcC8/edit?usp=sharing); please modify it freely. 
 
+## Datasets currently in here
+
+None! Soon to be the example & template datasets.
+
 # How to add to this repository
 
+(1) Make a github account
+
+(2) Download/fork the repository
+
 ## Add a new dataset
+
+(1) Please start by adding and submitting a pull request (or bothering Melissa directly for help uploading) that contains JUST your dataset/additional documents in whatever form you CURRENTLY have it in: Having this starting state will help us keep track of what kinds of changes need to happen to 'real' datasets. 
+
+You can start by copying and modifying the `template_psych-DS` folder.  Give it a short, memorable name. Then, *leave the rest of the structure alone* and put your raw datafiles in one of two places:
+
+```
+MyProject/ <- i.e. right at the top level
+MyProject/raw_data/source_data <- the 'home' for pre-specification version of the dataset
+```
+The data you put in `MyProject/raw_data/source_data` will stay where it is, and you'll add the up-to-spec files in `MyProject/raw_data/`
+
+(2) After making this initial commit/pull request, do whatever you need to do to meet the spec (as written), and *keep notes* - in addition to having the examples, the goal of this project is to 
 
 ## Modify an existing one
