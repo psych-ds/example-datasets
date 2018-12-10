@@ -34,3 +34,16 @@ This will be helpful when we're helping each other finish these examples, and ho
 
 (5) Before doing anything else, submit an initial pull request (with the dummy README file and everything) or send your folder to mekline@mit.edu. Don't wait until you're totally finished and everything is perfect - the point of this exercise is to identify what kinds of datasets and what parts of the process wind up being challenging for the current version of the specification!!!!
 
+(6) Work on fixing up your data, metadata, and folder structure! Please take notes as you go - your process is as important as the output. Please add tools, screencaps, and anything else helpful to the How-To document!
+
+# Tips & resources
+
+* [Article on the Schema.org Dataset structure](https://developers.google.com/search/docs/data-types/dataset). Click 'See Markup' under Examples for a pre-populated set of dataset JSON you can play with and validate against!
+
+* Doomlab and rOpenSci dataspice apps
+
+* Codebook by Ruben Arslan
+
+* Probably many others! Please add to the How-To document when you use them!
+
+
