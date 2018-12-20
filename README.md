@@ -32,14 +32,16 @@ Anyone can contribute to this project! Please have a look at the [Psych-DS code 
 
 (4) *In your fork, add your dataset **in its current form** to* 
 ```
-MyProject/raw_data/source_data 
+example-datasets-master/MyProject/raw_data/source_data 
 ```
 
-The data you put in `MyProject/raw_data/source_data` will stay where it is for the life of this project, and you'll add the up-to-spec TSV files in `MyProject/raw_data/`. We want to keep a copy of the unmodified datasets so that we can get a sense of what unmodified psychology datasets look like and so that others can see how their datasets can be changed to bring them up to spec.
-
-(5) *Push your modified fork, with your newly-contributed dataset*, to the `example-datasets-master` repo. You can do this either by sending a pull request through github OR by emailing your folder to mekline@mit.edu. When you submit your pull request, your modified `example-datasets-master` folder should look something like this:
+The data you put in `example-datasets-master/MyProject/raw_data/source_data` will stay where it is for the life of this project, and you'll add the up-to-spec TSV files in `example-datasets-master/MyProject/raw_data/`. We want to keep a copy of the unmodified datasets so that we can get a sense of what unmodified psychology datasets look like and so that others can see how their datasets can be changed to bring them up to spec. On your computer, your `example-datasets-master` folder should loo
 
 ![image](https://user-images.githubusercontent.com/5552513/50308632-7d2dc080-0461-11e9-995e-bf7c8b651278.png)
+
+If you manually upload your data to your fork, you **only need to upload your `MyProjects` folder and its contents**. You don't need to upload the full `example-datasets-master` folder.
+
+(5) *Push your modified fork, with your newly-contributed dataset*, to the `example-datasets-master` repo. You can do this either by sending a pull request through github OR by emailing your folder to mekline@mit.edu.
 
 Remember, you don't need to get your dataset up to spec before adding it to `example-datasets-master`; after all, the point of this exercise is to identify what kinds of datasets and what parts of the process wind up being challenging for the current version of the specification!!!!
 
