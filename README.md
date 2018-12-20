@@ -6,7 +6,7 @@ There are two ways you can contribute to this effort:
 
 (1) _Add data_ by [forking this repository and then submitting a pull request](https://help.github.com/articles/creating-a-pull-request/) OR by emailing Melissa Kline (mekline@mit.edu) if you want to contribute or modify a dataset and aren't familiar with GithHub.
 
-(2) _Make the instructions better_ by editing the [How-To](https://docs.google.com/spreadsheets/d/1QcfJqGPyBkdO0n4rCcye-Nfb3XWRYETOF3NMbwwPyJ4/edit?usp=sharing) document: It currently contains a skeleton of how to create spec-compliant datasets, and we'll iterate on it so it actually provides *helpful* help for someone using the specification for the first time. 
+(2) _Make the instructions better_ by editing the [How-To](https://docs.google.com/spreadsheets/d/1QcfJqGPyBkdO0n4rCcye-Nfb3XWRYETOF3NMbwwPyJ4/edit?usp=sharing) document. This document is currently just a skeleton. Over the course of collecting example datasets and bringing them up-to-spec, we'll iterate on it so it provides *helpful* instructions for someone using the specification for the first time. 
 
 Anyone can contribute to this project! Please have a look at the [Psych-DS code of conduct](https://github.com/psych-ds/psych-DS/blob/master/CODE_OF_CONDUCT.md) for our community guidelines, and feel free to email Melissa Kline (mekline@mit.edu) with any questions about the guinea pig datasets or Psych-DS more generally.  If you contribute a dataset, make sure to add yourself to the [list of guinea pig datasets](https://docs.google.com/spreadsheets/d/1QcfJqGPyBkdO0n4rCcye-Nfb3XWRYETOF3NMbwwPyJ4/edit?usp=sharing)!
 
