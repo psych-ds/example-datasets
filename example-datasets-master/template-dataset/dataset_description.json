@@ -1,0 +1,43 @@
+"@context":"http://schema.org/",
+	"@type":"Dataset",
+	"name":"Psych-DS Example Dataset",
+	"description":"This is a 'skeleton' dataset for Psych-DS",
+	"schemaVersion":"Psych-DS 0.1.0",
+	"creator":[
+		{"@type":"Person",
+		 "name":"Melissa Kline"},
+		{"@type":"Person",
+		 "name":"Schmelissa Schmine",
+		 "birthDate":"1950-01-01",
+		 "favoriteSandwich":"grilled cheese"}],		
+	"citation":"Kline (2018). Not a real paper, No Journal, p. 1-24.",
+	"sameAs": "https://doi.org/doi-goes-here",
+	"temporalCoverage":"1950-01-01/2013-12-18",
+	"keywords":["foo","bar"],
+	"variableMeasured":[
+		{"type": "PropertyValue",
+			"unitText": "Participant",
+			"name": "participant_id",
+			"description": "Identity of each zebra. Provides a unique rowid in this dataset.",
+			"naValues":"NA"
+		},
+		{"type": "PropertyValue",
+			"unitText": "Smoots",
+			"name": "length_in_smoots",
+			"description": "The length of a zebra, in smoots",
+			"minValue":"0",
+			"naValues":"NA"
+		},
+		{"type": "PropertyValue",
+			"unitCode": "C26",
+			"name": "milliseconds",
+			"description": "Time the zebra started running before/after the starting gun goes off"
+		},
+		{"type": "PropertyValue",
+			"unitText": null,
+			"name": "team",
+			"description": "Which team the zebra is on",
+			"levels":["Red team", "Blue team"],
+			"ordered":"False",
+			"naValues":["NA","No team"]
+		}]
