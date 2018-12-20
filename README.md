@@ -35,7 +35,7 @@ Anyone can contribute to this project! Please have a look at the [Psych-DS code 
 example-datasets-master/MyProject/raw_data/source_data 
 ```
 
-The data you put in `example-datasets-master/MyProject/raw_data/source_data` will stay where it is for the life of this project, and you'll add the up-to-spec TSV files in `example-datasets-master/MyProject/raw_data/`. We want to keep a copy of the unmodified datasets so that we can get a sense of what unmodified psychology datasets look like and so that others can see how their datasets can be changed to bring them up to spec. On your computer, your `example-datasets-master` folder should loo
+The data you put in `example-datasets-master/MyProject/raw_data/source_data` will stay where it is for the life of this project, and you'll add the up-to-spec TSV files in `example-datasets-master/MyProject/raw_data/`. We want to keep a copy of the unmodified datasets so that we can get a sense of what unmodified psychology datasets look like and so that others can see how their datasets can be changed to bring them up to spec. On your computer, your `example-datasets-master` folder should look something like this:
 
 ![image](https://user-images.githubusercontent.com/5552513/50308632-7d2dc080-0461-11e9-995e-bf7c8b651278.png)
 
