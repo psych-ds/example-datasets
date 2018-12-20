@@ -45,7 +45,7 @@ If you manually upload your data to your fork, you **only need to upload your `M
 
 Remember, you don't need to get your dataset up to spec before adding it to `example-datasets-master`; after all, the point of this exercise is to identify what kinds of datasets and what parts of the process wind up being challenging for the current version of the specification!!!!
 
-(6) *Work on fixing up your data, metadata, and folder structure by consulting the Psych-DS spec*. Please take notes as you go - your process is as important as the output! Please add tools, screencaps, and anything else helpful to the How-To document.
+(6) *Work on fixing up your data, metadata, and folder structure by consulting the Psych-DS spec*. Please take notes as you go; your process is as important as the output! Please also add tools, screencaps, and anything else you find helpful to the How-To document.
 
 # Tips & resources
 
