@@ -1,43 +1,27 @@
 "@context":"http://schema.org/",
+
 	"@type":"Dataset",
-	"name":"Psych-DS Example Dataset",
-	"description":"This is a 'skeleton' dataset for Psych-DS",
+
+	"name":"NIH reviews",
+
+	"description":"Reviewer scores of different subsets of 48 NIH grant proposals from this paper: https://psyarxiv.com/r2xvb",
+
 	"schemaVersion":"Psych-DS 0.1.0",
+
 	"creator":[
+
 		{"@type":"Person",
-		 "name":"Melissa Kline"},
-		{"@type":"Person",
-		 "name":"Schmelissa Schmine",
-		 "birthDate":"1950-01-01",
-		 "favoriteSandwich":"grilled cheese"}],		
-	"citation":"Kline (2018). Not a real paper, No Journal, p. 1-24.",
-	"sameAs": "https://doi.org/doi-goes-here",
-	"temporalCoverage":"1950-01-01/2013-12-18",
-	"keywords":["foo","bar"],
+
+		 "name":"Patrick S. Forscher"},
+
+	],
+	"citation":"Forscher, P. S., Cox, W. T. L., Brauer, M., & Devine, P. G. (2018, May 25). Little race or gender bias in an experiment of initial review of NIH R01 grant proposals. https://doi.org/10.31234/osf.io/r2xvb",
+
+	"sameAs": "https://doi.org/10.31234/osf.io/r2xvb",
+
+	"temporalCoverage":"2015-05-26/2017-04-24",
+
+	"keywords":["gender bias","race bias", "science policy"],
+
 	"variableMeasured":[
-		{"type": "PropertyValue",
-			"unitText": "Participant",
-			"name": "participant_id",
-			"description": "Identity of each zebra. Provides a unique rowid in this dataset.",
-			"naValues":"NA"
-		},
-		{"type": "PropertyValue",
-			"unitText": "Smoots",
-			"name": "length_in_smoots",
-			"description": "The length of a zebra, in smoots",
-			"minValue":"0",
-			"naValues":"NA"
-		},
-		{"type": "PropertyValue",
-			"unitCode": "C26",
-			"name": "milliseconds",
-			"description": "Time the zebra started running before/after the starting gun goes off"
-		},
-		{"type": "PropertyValue",
-			"unitText": null,
-			"name": "team",
-			"description": "Which team the zebra is on",
-			"levels":["Red team", "Blue team"],
-			"ordered":"False",
-			"naValues":["NA","No team"]
-		}]
+]

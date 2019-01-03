@@ -1,11 +1,10 @@
-# README - Template project
+# README - NIH reviews
 
-This is a README file. It is a [Markdown file](https://en.wikipedia.org/wiki/Markdown), which means it's a simple text document, but you can use simple syntax like you see here and many programs will display it more nicely - for instance, the words 'Markdown file' will appear as a link that goes to `https://en.wikipedia.org/wiki/Markdown`.
+The nih-reviews project contains data taken from [Forscher, Cox, Brauer, and Devine (2019)](https://psyarxiv.com/r2xvb), in which 446 scientists each reviewed 3 of 48 NIH R01 grant proposals.  412 of these scientists were used for the primary analysis in the manuscript.  The nih-reviews folder contains:
 
-This is the first document someone will read when they access your project! Write something informative in here, such as:
+* nih_data.tsv.  This is a tab-delimited file in which each row represents a review of a single grant proposal by a single reviewer
+* dataset_description.json. This is a json file containing machine-readable meta-data for this project
+* codebook.tsv.  This is a codebook containing descriptions of each variable in nih_data.tsv
+* raw_data.  This contains the raw and source datafiles from this project
 
-* A quick summary of what the project is
-
-* A list of what files can be found in this folder and what they are
-
-* Instructions for how to cite this datset/project. You can also put your citation information in `dataset_description.JSON`!
+The data can be cited as XXXX
