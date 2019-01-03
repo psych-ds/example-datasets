@@ -1,4 +1,4 @@
-# README - NIH reviews
+# NIH reviews
 
 The nih-reviews project contains data taken from [Forscher, Cox, Brauer, and Devine (2019)](https://psyarxiv.com/r2xvb), in which 446 scientists each reviewed 3 of 48 NIH R01 grant proposals.  412 of these scientists were used for the primary analysis in the manuscript.  The nih-reviews folder contains:
 
