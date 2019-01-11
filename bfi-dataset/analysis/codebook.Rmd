@@ -1,0 +1,122 @@
+---
+title: "Codebook"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    code_folding: 'hide'
+    self_contained: true
+  pdf_document:
+    toc: yes
+    toc_depth: 4
+    latex_engine: xelatex
+---
+
+Here, we're just setting a few options.
+
+```{r setup}
+knitr::opts_chunk$set(
+  warning = TRUE, # show warnings during codebook generation
+  message = TRUE, # show messages during codebook generation
+  error = TRUE, # do not interrupt codebook generation in case of errors,
+                # usually better for debugging
+  echo = TRUE  # show R code
+)
+ggplot2::theme_set(ggplot2::theme_bw())
+pander::panderOptions("table.split.table", Inf)
+```
+
+Now, we're preparing our data for the codebook.
+
+```{r prepare_codebook}
+library(codebook)
+library(dplyr)
+library(tidyverse)
+library(labelled)
+library(jsonlite)
+codebook_data <- rio::import("https://osf.io/s87kd/download", "csv")
+bfi_data <- rio::import("https://osf.io/s87kd/download", "csv")
+dict <- rio::import("https://osf.io/cs678/download", "csv")
+
+var_label(codebook_data) <- dict %>% dplyr::select(variable, label) %>% dict_to_list()
+
+val_labels(codebook_data$gender) <- c("male" = 1, "female" = 2)
+val_labels(codebook_data$education) <- c("in high school" = 1,
+   "finished high school" = 2,
+              "some college" = 3, 
+               "college graduate" = 4, 
+              "graduate degree" = 5)
+
+add_likert_labels <- function(x) {
+  val_labels(x) <- c("Very Inaccurate" = 1, 
+                  "Moderately Inaccurate" = 2, 
+                  "Slightly Inaccurate" = 3,
+                  "Slightly Accurate" = 4,
+                  "Moderately Accurate" = 5,
+                  "Very Accurate" = 6)
+  x
+}
+
+likert_items <- dict %>% filter(Big6 != "") %>% pull(variable)
+
+codebook_data <- codebook_data %>% mutate_at(likert_items,  add_likert_labels)
+
+codebook_data$extraversion <- codebook_data %>% dplyr::select(E1:E5) %>% aggregate_and_document_scale()
+
+reversed_items <- dict %>% filter(Keying == -1) %>% pull(variable)
+
+codebook_data <- codebook_data %>% 
+  rename_at(reversed_items,  add_R)
+
+codebook_data <- codebook_data %>% 
+    mutate_at(vars(matches("\\dR$")), reverse_labelled_values)
+
+codebook_data$extraversion <- codebook_data %>% dplyr::select(E1R:E5) %>% aggregate_and_document_scale()
+
+codebook_data$plasticity <- codebook_data %>% dplyr::select(E1R:E5, O1:O5R) %>% aggregate_and_document_scale() 
+
+
+
+
+# omit the following lines, if your missing values are already properly labelled
+codebook_data <- detect_missing(codebook_data,
+    only_labelled = TRUE, # only labelled values are autodetected as
+                                   # missing
+    negative_values_are_missing = FALSE, # negative values are missing values
+    ninety_nine_problems = TRUE,   # 99/999 are missing values, if they
+                                   # are more than 5 MAD from the median
+    )
+
+# If you are not using formr, the codebook package needs to guess which items
+# form a scale. The following line finds item aggregates with names like this:
+# scale = scale_1 + scale_2R + scale_3R
+# identifying these aggregates allows the codebook function to
+# automatically compute reliabilities.
+# However, it will not reverse items automatically.
+codebook_data <- detect_scales(codebook_data)
+```
+
+
+Create codebook
+
+```{r codebook}
+metadata(codebook_data)$name <- "25 Personality items representing 5 factors"
+metadata(codebook_data)$description <- "25 personality self report items taken from the International Personality Item Pool (ipip.ori.org)[...]"
+metadata(codebook_data)$identifier <- "https://dx.doi.org/10.17605/OSF.IO/K39BG"
+metadata(codebook_data)$creator <- "William Revelle"
+metadata(codebook_data)$citation <- "Revelle, W., Wilt, J., and Rosenthal, A. (2010) Individual Differences in Cognition: New Methods for examining the Personality-Cognition Link In Gruszka, A. and Matthews, G. and Szymura, B. (Eds.) Handbook of Individual Differences in Cognition: Attention, Memory and Executive Control, Springer."
+metadata(codebook_data)$url <- "https://cran.r-project.org/web/packages/psych/index.html"
+metadata(codebook_data)$datePublished <- "2010-01-01"
+metadata(codebook_data)$temporalCoverage <- "Spring 2010" 
+metadata(codebook_data)$spatialCoverage <- "Online" 
+
+codebook(codebook_data)
+```
+
+```{r export}
+bfi_meta <- metadata_list(codebook_data)
+write_json(bfi_meta, "/home/eleftheriadou/Users/EleftheriadouIoannaIro/bfi-dataset/dataset_description.json", pretty = TRUE)
+rio::export(codebook_data, "/home/eleftheriadou/Users/EleftheriadouIoannaIro/bfi-dataset/processed_data/bfi-codebook_data.tsv")
+```
+
