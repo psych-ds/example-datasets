@@ -21,7 +21,7 @@ Anyone can contribute to this project! Please have a look at the [Psych-DS code 
 * Looking Time dataset - Melissa Kline/Kim Scott
 * NIH reviews - Patrick S. Forscher
 * Faces and Bodies - Lisa DeBruine
-* BFI - ioanna-iro
+* BFI - Ioanna Iro Eleftheriadou
 
 # How to add to this repository
 
