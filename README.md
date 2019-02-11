@@ -22,6 +22,7 @@ Anyone can contribute to this project! Please have a look at the [Psych-DS code 
 * NIH reviews - Patrick S. Forscher
 * Faces and Bodies - Lisa DeBruine
 * BFI - Ioanna Iro Eleftheriadou
+* Object Orientation - Sau-Chin Chen
 
 # How to add to this repository
 
