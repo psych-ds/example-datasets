@@ -1,246 +1,252 @@
 {
-  "name": ["25 Personality items representing 5 factors"],
-  "description": ["25 personality self report items taken from the International Personality Item Pool (ipip.ori.org)[...]\n\n\n## Table of variables\nThis table contains variable names, labels, their central tendencies and other attributes.\n\n|name         |label                                     |data_type |value_labels                                                                                                                         |scale_item_names                           |missing |complete |n    |mean  |sd    |p0  |p25 |p50 |p75 |p100 |hist     |\n|:------------|:-----------------------------------------|:---------|:------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|:-------|:--------|:----|:-----|:-----|:---|:---|:---|:---|:----|:--------|\n|A1R          |Am indifferent to the feelings of others. |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |16      |2784     |2800 |4.59  |1.41  |1   |4   |5   |6   |6    |▁▂▁▃▃▁▇▇ |\n|A2           |Inquire about others' well-being.         |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |27      |2773     |2800 |4.8   |1.17  |1   |4   |5   |6   |6    |▁▁▁▁▅▁▇▇ |\n|A3           |Know how to comfort others.               |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |26      |2774     |2800 |4.6   |1.3   |1   |4   |5   |6   |6    |▁▂▁▂▅▁▇▆ |\n|A4           |Love children.                            |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |19      |2781     |2800 |4.7   |1.48  |1   |4   |5   |6   |6    |▁▂▁▁▃▁▅▇ |\n|A5           |Make people feel at ease.                 |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |16      |2784     |2800 |4.56  |1.26  |1   |4   |5   |5   |6    |▁▂▁▂▅▁▇▆ |\n|C1           |Am exacting in my work.                   |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |21      |2779     |2800 |4.5   |1.24  |1   |4   |5   |5   |6    |▁▁▁▂▅▁▇▅ |\n|C2           |Continue until everything is perfect.     |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |24      |2776     |2800 |4.37  |1.32  |1   |4   |5   |5   |6    |▁▂▁▂▆▁▇▅ |\n|C3           |Do things according to a plan.            |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |20      |2780     |2800 |4.3   |1.29  |1   |4   |5   |5   |6    |▁▂▁▂▆▁▇▅ |\n|C4R          |Do things in a half-way manner.           |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |26      |2774     |2800 |4.45  |1.38  |1   |3   |5   |6   |6    |▁▂▁▅▅▁▇▇ |\n|C5R          |Waste my time.                            |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |16      |2784     |2800 |3.7   |1.63  |1   |2   |4   |5   |6    |▃▆▁▇▅▁▇▆ |\n|E1R          |Don't talk a lot.                         |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |23      |2777     |2800 |4.03  |1.63  |1   |3   |4   |5   |6    |▃▅▁▆▅▁▇▇ |\n|E2R          |Find it difficult to approach others.     |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |16      |2784     |2800 |3.86  |1.61  |1   |3   |4   |5   |6    |▃▅▁▇▅▁▇▆ |\n|E3           |Know how to captivate people.             |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |25      |2775     |2800 |4     |1.35  |1   |3   |4   |5   |6    |▂▃▁▃▇▁▇▃ |\n|E4           |Make friends easily.                      |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |9       |2791     |2800 |4.42  |1.46  |1   |4   |5   |6   |6    |▁▂▁▂▃▁▇▆ |\n|E5           |Take charge.                              |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |21      |2779     |2800 |4.42  |1.33  |1   |4   |5   |5   |6    |▁▂▁▂▅▁▇▅ |\n|N1R          |Get angry easily.                         |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |22      |2778     |2800 |4.07  |1.57  |1   |3   |4   |5   |6    |▂▅▁▆▅▁▇▇ |\n|N2R          |Get irritated easily.                     |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |21      |2779     |2800 |3.49  |1.53  |1   |2   |3   |5   |6    |▃▆▁▇▅▁▆▃ |\n|N3R          |Have frequent mood swings.                |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |11      |2789     |2800 |3.78  |1.6   |1   |3   |4   |5   |6    |▃▆▁▇▅▁▇▆ |\n|N4R          |Often feel blue.                          |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |36      |2764     |2800 |3.81  |1.57  |1   |3   |4   |5   |6    |▃▅▁▇▅▁▇▆ |\n|N5R          |Panic easily.                             |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |29      |2771     |2800 |4.03  |1.62  |1   |3   |4   |5   |6    |▃▃▁▆▅▁▇▇ |\n|O1           |Am full of ideas.                         |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |22      |2778     |2800 |4.82  |1.13  |1   |4   |5   |6   |6    |▁▁▁▂▅▁▇▇ |\n|O2R          |Avoid difficult reading material.         |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |0       |2800     |2800 |4.29  |1.57  |1   |3   |5   |6   |6    |▂▃▁▅▃▁▇▇ |\n|O3           |Carry the conversation to a higher level. |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |28      |2772     |2800 |4.44  |1.22  |1   |4   |5   |5   |6    |▁▁▁▂▆▁▇▅ |\n|O4           |Spend time reflecting on things.          |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |14      |2786     |2800 |4.89  |1.22  |1   |4   |5   |6   |6    |▁▁▁▁▃▁▆▇ |\n|O5R          |Will not probe deeply into a subject.     |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |20      |2780     |2800 |4.51  |1.33  |1   |4   |5   |6   |6    |▁▂▁▃▅▁▇▇ |\n|gender       |gender                                    |integer   |1. male, - 2. female                                                                                                                   |NA                                         |0       |2800     |2800 |1.67  |0.47  |1   |1   |2   |2   |2    |▃▁▁▁▁▁▁▇ |\n|education    |education                                 |integer   |1. in high school, - 2. finished high school, - 3. some college, - 4. college graduate, - 5. graduate degree                                 |NA                                         |223     |2577     |2800 |3.19  |1.11  |1   |3   |3   |4   |5    |▂▂▁▇▁▂▁▃ |\n|age          |age                                       |integer   |NA                                                                                                                                   |NA                                         |0       |2800     |2800 |28.78 |11.13 |3   |20  |26  |35  |86   |▁▇▆▃▂▁▁▁ |\n|extraversion |5 E items aggregated by rowMeans          |numeric   |NA                                                                                                                                   |E1R, E2R, E3, E4, E5                       |87      |2713     |2800 |4.14  |1.06  |1   |3.4 |4.2 |5   |6    |▁▁▃▅▇▇▇▆ |\n|plasticity   |10  items aggregated by rowMeans          |numeric   |NA                                                                                                                                   |E1R, E2R, E3, E4, E5, O1, O2R, O3, O4, O5R |149     |2651     |2800 |4.37  |0.73  |1.7 |3.9 |4.4 |4.9 |6    |▁▁▂▃▆▇▅▂ |\n\n### Note\nThis dataset was automatically described using the [codebook R package](https://rubenarslan.github.io/codebook/)."],
-  "identifier": ["https://dx.doi.org/10.17605/OSF.IO/K39BG"],
-  "creator": ["William Revelle"],
-  "citation": ["Revelle, W., Wilt, J., and Rosenthal, A. (2010) Individual Differences in Cognition: New Methods for examining the Personality-Cognition Link In Gruszka, A. and Matthews, G. and Szymura, B. (Eds.) Handbook of Individual Differences in Cognition: Attention, Memory and Executive Control, Springer."],
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "schemaVersion": "Psych-DS 0.1.0",
+  "name": "25 Personality items representing 5 factors",
+  "identifier": "https://dx.doi.org/10.17605/OSF.IO/K39BG",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "William Revelle"
+    }
+  ],
+  "citation": "Revelle, W., Wilt, J., and Rosenthal, A. (2010) Individual Differences in Cognition: New Methods for examining the Personality-Cognition Link In Gruszka, A. and Matthews, G. and Szymura, B. (Eds.) Handbook of Individual Differences in Cognition: Attention, Memory and Executive Control, Springer.",
   "url": ["https://cran.r-project.org/web/packages/psych/index.html"],
-  "datePublished": ["2010-01-01"],
-  "temporalCoverage": ["Spring 2010"],
-  "spatialCoverage": ["Online"],
-  "@context": ["http://schema.org/"],
-  "@type": ["Dataset"],
+  "datePublished": "2010-01-01",
+  "temporalCoverage": "Spring 2010",
+  "spatialCoverage": "Online",
+  "description": "25 personality self report items taken from the International Personality Item Pool (ipip.ori.org)[...]\n\n\n## Table of variables\nThis table contains variable names, labels, their central tendencies and other attributes.\n\n|name         |label                                     |data_type |value_labels                                                                                                                         |scale_item_names                           |missing |complete |n    |mean  |sd    |p0  |p25 |p50 |p75 |p100 |hist     |\n|:------------|:-----------------------------------------|:---------|:------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|:-------|:--------|:----|:-----|:-----|:---|:---|:---|:---|:----|:--------|\n|A1R          |Am indifferent to the feelings of others. |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |16      |2784     |2800 |4.59  |1.41  |1   |4   |5   |6   |6    |▁▂▁▃▃▁▇▇ |\n|A2           |Inquire about others' well-being.         |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |27      |2773     |2800 |4.8   |1.17  |1   |4   |5   |6   |6    |▁▁▁▁▅▁▇▇ |\n|A3           |Know how to comfort others.               |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |26      |2774     |2800 |4.6   |1.3   |1   |4   |5   |6   |6    |▁▂▁▂▅▁▇▆ |\n|A4           |Love children.                            |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |19      |2781     |2800 |4.7   |1.48  |1   |4   |5   |6   |6    |▁▂▁▁▃▁▅▇ |\n|A5           |Make people feel at ease.                 |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |16      |2784     |2800 |4.56  |1.26  |1   |4   |5   |5   |6    |▁▂▁▂▅▁▇▆ |\n|C1           |Am exacting in my work.                   |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |21      |2779     |2800 |4.5   |1.24  |1   |4   |5   |5   |6    |▁▁▁▂▅▁▇▅ |\n|C2           |Continue until everything is perfect.     |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |24      |2776     |2800 |4.37  |1.32  |1   |4   |5   |5   |6    |▁▂▁▂▆▁▇▅ |\n|C3           |Do things according to a plan.            |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |20      |2780     |2800 |4.3   |1.29  |1   |4   |5   |5   |6    |▁▂▁▂▆▁▇▅ |\n|C4R          |Do things in a half-way manner.           |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |26      |2774     |2800 |4.45  |1.38  |1   |3   |5   |6   |6    |▁▂▁▅▅▁▇▇ |\n|C5R          |Waste my time.                            |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |16      |2784     |2800 |3.7   |1.63  |1   |2   |4   |5   |6    |▃▆▁▇▅▁▇▆ |\n|E1R          |Don't talk a lot.                         |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |23      |2777     |2800 |4.03  |1.63  |1   |3   |4   |5   |6    |▃▅▁▆▅▁▇▇ |\n|E2R          |Find it difficult to approach others.     |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |16      |2784     |2800 |3.86  |1.61  |1   |3   |4   |5   |6    |▃▅▁▇▅▁▇▆ |\n|E3           |Know how to captivate people.             |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |25      |2775     |2800 |4     |1.35  |1   |3   |4   |5   |6    |▂▃▁▃▇▁▇▃ |\n|E4           |Make friends easily.                      |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |9       |2791     |2800 |4.42  |1.46  |1   |4   |5   |6   |6    |▁▂▁▂▃▁▇▆ |\n|E5           |Take charge.                              |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |21      |2779     |2800 |4.42  |1.33  |1   |4   |5   |5   |6    |▁▂▁▂▅▁▇▅ |\n|N1R          |Get angry easily.                         |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |22      |2778     |2800 |4.07  |1.57  |1   |3   |4   |5   |6    |▂▅▁▆▅▁▇▇ |\n|N2R          |Get irritated easily.                     |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |21      |2779     |2800 |3.49  |1.53  |1   |2   |3   |5   |6    |▃▆▁▇▅▁▆▃ |\n|N3R          |Have frequent mood swings.                |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |11      |2789     |2800 |3.78  |1.6   |1   |3   |4   |5   |6    |▃▆▁▇▅▁▇▆ |\n|N4R          |Often feel blue.                          |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |36      |2764     |2800 |3.81  |1.57  |1   |3   |4   |5   |6    |▃▅▁▇▅▁▇▆ |\n|N5R          |Panic easily.                             |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |29      |2771     |2800 |4.03  |1.62  |1   |3   |4   |5   |6    |▃▃▁▆▅▁▇▇ |\n|O1           |Am full of ideas.                         |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |22      |2778     |2800 |4.82  |1.13  |1   |4   |5   |6   |6    |▁▁▁▂▅▁▇▇ |\n|O2R          |Avoid difficult reading material.         |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |0       |2800     |2800 |4.29  |1.57  |1   |3   |5   |6   |6    |▂▃▁▅▃▁▇▇ |\n|O3           |Carry the conversation to a higher level. |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |28      |2772     |2800 |4.44  |1.22  |1   |4   |5   |5   |6    |▁▁▁▂▆▁▇▅ |\n|O4           |Spend time reflecting on things.          |integer   |1. Very Inaccurate, - 2. Moderately Inaccurate, - 3. Slightly Inaccurate, - 4. Slightly Accurate, - 5. Moderately Accurate, - 6. Very Accurate |NA                                         |14      |2786     |2800 |4.89  |1.22  |1   |4   |5   |6   |6    |▁▁▁▁▃▁▆▇ |\n|O5R          |Will not probe deeply into a subject.     |numeric   |6. Very Inaccurate, - 5. Moderately Inaccurate, - 4. Slightly Inaccurate, - 3. Slightly Accurate, - 2. Moderately Accurate, - 1. Very Accurate |NA                                         |20      |2780     |2800 |4.51  |1.33  |1   |4   |5   |6   |6    |▁▂▁▃▅▁▇▇ |\n|gender       |gender                                    |integer   |1. male, - 2. female                                                                                                                   |NA                                         |0       |2800     |2800 |1.67  |0.47  |1   |1   |2   |2   |2    |▃▁▁▁▁▁▁▇ |\n|education    |education                                 |integer   |1. in high school, - 2. finished high school, - 3. some college, - 4. college graduate, - 5. graduate degree                                 |NA                                         |223     |2577     |2800 |3.19  |1.11  |1   |3   |3   |4   |5    |▂▂▁▇▁▂▁▃ |\n|age          |age                                       |integer   |NA                                                                                                                                   |NA                                         |0       |2800     |2800 |28.78 |11.13 |3   |20  |26  |35  |86   |▁▇▆▃▂▁▁▁ |\n|extraversion |5 E items aggregated by rowMeans          |numeric   |NA                                                                                                                                   |E1R, E2R, E3, E4, E5                       |87      |2713     |2800 |4.14  |1.06  |1   |3.4 |4.2 |5   |6    |▁▁▃▅▇▇▇▆ |\n|plasticity   |10  items aggregated by rowMeans          |numeric   |NA                                                                                                                                   |E1R, E2R, E3, E4, E5, O1, O2R, O3, O4, O5R |149     |2651     |2800 |4.37  |0.73  |1.7 |3.9 |4.4 |4.9 |6    |▁▁▂▃▆▇▅▂ |\n\n### Note\nThis dataset was automatically described using the [codebook R package](https://rubenarslan.github.io/codebook/).",
   "variableMeasured": [
     {
-      "name": ["A1R"],
-      "description": ["Am indifferent to the feelings of others."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "A1R",
+      "description": "Am indifferent to the feelings of others.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["A2"],
-      "description": ["Inquire about others' well-being."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "A2",
+      "description": "Inquire about others' well-being.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["A3"],
-      "description": ["Know how to comfort others."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "A3",
+      "description": "Know how to comfort others.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["A4"],
-      "description": ["Love children."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "A4",
+      "description": "Love children.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["A5"],
-      "description": ["Make people feel at ease."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "A5",
+      "description": "Make people feel at ease.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["C1"],
-      "description": ["Am exacting in my work."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "C1",
+      "description": "Am exacting in my work.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["C2"],
-      "description": ["Continue until everything is perfect."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "C2",
+      "description": "Continue until everything is perfect.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["C3"],
-      "description": ["Do things according to a plan."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "C3",
+      "description": "Do things according to a plan.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["C4R"],
-      "description": ["Do things in a half-way manner."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "C4R",
+      "description": "Do things in a half-way manner.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["C5R"],
-      "description": ["Waste my time."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "C5R",
+      "description": "Waste my time.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["E1R"],
-      "description": ["Don't talk a lot."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "E1R",
+      "description": "Don't talk a lot.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["E2R"],
-      "description": ["Find it difficult to approach others."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "E2R",
+      "description": "Find it difficult to approach others.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["E3"],
-      "description": ["Know how to captivate people."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "E3",
+      "description": "Know how to captivate people.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["E4"],
-      "description": ["Make friends easily."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "E4",
+      "description": "Make friends easily.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["E5"],
-      "description": ["Take charge."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "E5",
+      "description": "Take charge.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["N1R"],
-      "description": ["Get angry easily."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "N1R",
+      "description": "Get angry easily.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["N2R"],
-      "description": ["Get irritated easily."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "N2R",
+      "description": "Get irritated easily.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["N3R"],
-      "description": ["Have frequent mood swings."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "N3R",
+      "description": "Have frequent mood swings.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["N4R"],
-      "description": ["Often feel blue."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "N4R",
+      "description": "Often feel blue.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["N5R"],
-      "description": ["Panic easily."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "N5R",
+      "description": "Panic easily.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["O1"],
-      "description": ["Am full of ideas."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "O1",
+      "description": "Am full of ideas.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["O2R"],
-      "description": ["Avoid difficult reading material."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "O2R",
+      "description": "Avoid difficult reading material.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["O3"],
-      "description": ["Carry the conversation to a higher level."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "O3",
+      "description": "Carry the conversation to a higher level.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["O4"],
-      "description": ["Spend time reflecting on things."],
-      "value": ["1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "O4",
+      "description": "Spend time reflecting on things.",
+      "value": "1. Very Inaccurate,\n2. Moderately Inaccurate,\n3. Slightly Inaccurate,\n4. Slightly Accurate,\n5. Moderately Accurate,\n6. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["O5R"],
-      "description": ["Will not probe deeply into a subject."],
-      "value": ["6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate"],
-      "maxValue": [6],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "O5R",
+      "description": "Will not probe deeply into a subject.",
+      "value": "6. Very Inaccurate,\n5. Moderately Inaccurate,\n4. Slightly Inaccurate,\n3. Slightly Accurate,\n2. Moderately Accurate,\n1. Very Accurate",
+      "maxValue": 6,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["gender"],
-      "description": ["gender"],
-      "value": ["1. male,\n2. female"],
-      "maxValue": [2],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "gender",
+      "description": "gender",
+      "value": "1. male,\n2. female",
+      "maxValue": 2,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["education"],
-      "description": ["education"],
-      "value": ["1. in high school,\n2. finished high school,\n3. some college,\n4. college graduate,\n5. graduate degree"],
-      "maxValue": [5],
-      "minValue": [1],
-      "@type": ["propertyValue"]
+      "name": "education",
+      "description": "education",
+      "value": "1. in high school,\n2. finished high school,\n3. some college,\n4. college graduate,\n5. graduate degree",
+      "maxValue": 5,
+      "minValue": 1,
+      "@type": "PropertyValue"
     },
     {
-      "name": ["age"],
-      "description": ["age"],
-      "@type": ["propertyValue"]
+      "name": "age",
+      "description": "age",
+      "@type": "PropertyValue"
     },
     {
-      "name": ["extraversion"],
-      "description": ["5 E items aggregated by rowMeans"],
-      "@type": ["propertyValue"]
+      "name": "extraversion",
+      "description": "5 E items aggregated by rowMeans",
+      "@type": "PropertyValue"
     },
     {
-      "name": ["plasticity"],
-      "description": ["10  items aggregated by rowMeans"],
-      "@type": ["propertyValue"]
+      "name": "plasticity",
+      "description": "10  items aggregated by rowMeans",
+      "@type": "PropertyValue"
     }
   ]
 }
