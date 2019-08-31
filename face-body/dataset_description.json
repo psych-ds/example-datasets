@@ -1,16 +1,25 @@
-"@context":"http://schema.org/",
-	"@type":"Dataset",
-	"name":"Faces and Bodies",
-	"description":"This project examines the social perception of bodies, in comparison to faces, focusing on the dimension structure from Oosterhof & Todorov (2008, PNAS).",
-	"schemaVersion":"Psych-DS 0.1.0",
-	"creator":[
-		{"@type":"Person",
-		 "name":"Lisa DeBruine"},
-		{"@type":"Person",
-		 "name":"Danielle Morrison"}
-	],		
-	"citation":"Morrison D, Wang H, Hahn AC, Jones BC, DeBruine LM (2017) Predicting the reward value of faces and bodies from social perception. PLoS ONE 12(9): e0185093.",
-	"sameAs": "https://doi.org/10.1371/journal.pone.0185093",
-	"temporalCoverage":"2000-01-01/2018-12-31",
-	"keywords":["faces","bodies"],
-	"variableMeasured":[]
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "name": "Faces and Bodies",
+    "description": "This project examines the social perception of bodies, in comparison to faces, focusing on the dimension structure from Oosterhof & Todorov (2008, PNAS).",
+    "schemaVersion": "Psych-DS 0.1.0",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Lisa DeBruine"
+        },
+        {
+            "@type": "Person",
+            "name": "Danielle Morrison"
+        }
+    ],
+    "citation": "Morrison D, Wang H, Hahn AC, Jones BC, DeBruine LM (2017) Predicting the reward value of faces and bodies from social perception. PLoS ONE 12(9): e0185093.",
+    "sameAs": "https://doi.org/10.1371/journal.pone.0185093",
+    "temporalCoverage": "2000-01-01/2018-12-31",
+    "keywords": [
+        "faces",
+        "bodies"
+    ],
+    "variableMeasured": []
+}
