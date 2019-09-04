@@ -1,14 +1,22 @@
-"@context":"http://schema.org/",
-	"@type":"Dataset",
-	"name":"NIH reviews",
-	"description":"Reviewer scores of different subsets of 48 NIH grant proposals from this paper: https://psyarxiv.com/r2xvb",
-	"schemaVersion":"Psych-DS 0.1.0",
-	"creator":[
-		{"@type":"Person",
-		 "name":"Patrick S. Forscher"},
-	],
-	"citation":"Forscher, P. S., Cox, W. T. L., Brauer, M., & Devine, P. G. (2018, May 25). Little race or gender bias in an experiment of initial review of NIH R01 grant proposals. https://doi.org/10.31234/osf.io/r2xvb",
-	"sameAs": "https://doi.org/10.31234/osf.io/r2xvb",
-	"temporalCoverage":"2015-05-26/2017-04-24",
-	"keywords":["gender bias","race bias", "science policy"],
-	"variableMeasured":[]
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "name": "NIH reviews",
+    "description": "Reviewer scores of different subsets of 48 NIH grant proposals from this paper: https://psyarxiv.com/r2xvb",
+    "schemaVersion": "Psych-DS 0.1.0",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Patrick S. Forscher"
+        }
+    ],
+    "citation": "Forscher, P. S., Cox, W. T. L., Brauer, M., & Devine, P. G. (2018, May 25). Little race or gender bias in an experiment of initial review of NIH R01 grant proposals. https://doi.org/10.31234/osf.io/r2xvb",
+    "sameAs": "https://doi.org/10.31234/osf.io/r2xvb",
+    "temporalCoverage": "2015-05-26/2017-04-24",
+    "keywords": [
+        "gender bias",
+        "race bias",
+        "science policy"
+    ],
+    "variableMeasured": []
+}
