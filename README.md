@@ -1,6 +1,6 @@
 # example-datasets
 
-This repository is the home for a series of datasets that our intrepid guinea pig researchers will attempt to adapt to the Psych-DS specification. These datasets will (initially) help us discover practical challenges and remaining ambiguities in the specification and (later) provide a series of examples that can be used by researchers looking for examples & templates, and for developers looking to test code (e.g. the validator!) over real data.
+This repository is the home for a series of datasets that our intrepid hackathon attendees will attempt to adapt to the Psych-DS specification. These datasets will (initially) help us discover practical challenges and remaining ambiguities in the specification and (later) provide a series of examples that can be used by researchers looking for examples & templates, and for developers looking to test code (e.g. the validator!) over real data.
 
 There are two ways you can contribute to this effort:
 
