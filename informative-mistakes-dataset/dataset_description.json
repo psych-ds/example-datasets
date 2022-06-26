@@ -1,0 +1,7 @@
+{
+     "@context" : "http://schema.org/",
+     "@type" : "Dataset",
+     "name" : "Psych-DS 'Infomative Mistakes' Dataset",
+     "description" : "This is a minimal example of a dataset which is several key mistakes away from being a valid Psych-DS dataset.",
+     "variableMeasured" : ["lab_id", "age_years","responded","trial_id","response", "sub_id", "date", "rating"]
+}

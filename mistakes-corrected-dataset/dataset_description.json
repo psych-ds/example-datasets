@@ -1,0 +1,7 @@
+{
+     "@context" : "http://schema.org/",
+     "@type" : "Dataset",
+     "name" : "Psych-DS 'Mistakes Corrected' Dataset",
+     "description" : "This is a minimal example of a dataset which has now been corrected to meet the Psych-DS spec (according to the sips-2022 validator tool)",
+     "variableMeasured" : ["sub_id", "date", "rating", "yarn_color", "yarn_color2", "garment"]
+}

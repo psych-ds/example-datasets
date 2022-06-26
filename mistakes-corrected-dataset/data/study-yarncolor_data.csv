@@ -1,0 +1,12 @@
+sub_id,date,garment,yarn_color
+r2d2,2021-02-21,hat,Country Blue
+r2d2,1999-08-12,scarf,Eggplant
+r2d2,2008-12-12,hat,Royal
+r2d2,2019,hat,Grey
+r2d2,1999,snood,Gold
+r2d2,2014-01-01,sweater,Kelly
+c3p0,2021,mittens,Lavender
+c3p0,2020,glove,Toast
+c3p0,2020-12-12,,Mint Green
+bb8,2020,scarf,Maroon
+bb8,2021,scarf,Pink Carnation
