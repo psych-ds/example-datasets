@@ -1,4 +1,4 @@
-"@context":"http://schema.org/",
+{"@context":"http://schema.org/",
 	"@type":"Dataset",
 	"name":"Faces and Bodies",
 	"description":"This project examines the social perception of bodies, in comparison to faces, focusing on the dimension structure from Oosterhof & Todorov (2008, PNAS).",
@@ -13,4 +13,4 @@
 	"sameAs": "https://doi.org/10.1371/journal.pone.0185093",
 	"temporalCoverage":"2000-01-01/2018-12-31",
 	"keywords":["faces","bodies"],
-	"variableMeasured":[]
+	"variableMeasured":[]}

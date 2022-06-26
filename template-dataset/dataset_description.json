@@ -1,4 +1,4 @@
-"@context":"http://schema.org/",
+{"@context":"http://schema.org/",
 	"@type":"Dataset",
 	"name":"Psych-DS Example Dataset",
 	"description":"This is a 'skeleton' dataset for Psych-DS",
@@ -41,3 +41,4 @@
 			"ordered":"False",
 			"naValues":["NA","No team"]
 		}]
+}
