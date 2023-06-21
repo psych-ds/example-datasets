@@ -3,17 +3,14 @@
      "@type": "Dataset",
      "schemaVersion": "Psych-DS 0.1.0",
      "name": "Psych-DS Template Dataset",
-     "description": "This is a template directory designed to support creating Psych-DS 
-     directories, by providing a Psych-DS compliant dataset of imaginary information 
-     about knitting projects.",
+     "description": "This is a template directory designed to support creating Psych-DS directories, by providing a Psych-DS compliant dataset of imaginary information about knitting projects.",
      "author": "Melissa Kline Struhl",
      "url": "https://github.com/psych-ds/example-datasets/tree/master/template-dataset",
      "citation": "",
      "variableMeasured":[
 		{"type": "PropertyValue",
 			"name": "sub_id",
-			"description": "Identity of participant (the knitter of each garment.)  A 
-            unique, anonymous string for each individual, e.g. 'bb8'."
+			"description": "Identity of participant (the knitter of each garment.)  A unique, anonymous string for each individual, e.g. 'bb8'."
 		},
 		{"type": "PropertyValue",
 			"name": "date",
@@ -25,7 +22,6 @@
 		},
 		{"type": "PropertyValue",
 			"name": "yarn_color",
-			"description": "What color yarn was used in the garment, using the full name 
-            that appears on the yarn label, e.g. 'Mint Green'."
+			"description": "What color yarn was used in the garment, using the full name that appears on the yarn label, e.g. 'Mint Green'."
 		}]
 }
