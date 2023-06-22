@@ -6,7 +6,7 @@
      "description": "This is a template directory designed to support creating Psych-DS directories, by providing a Psych-DS compliant dataset of imaginary information about knitting projects.",
      "author": "Melissa Kline Struhl",
      "url": "https://github.com/psych-ds/example-datasets/tree/master/template-dataset",
-     "citation": "",
+     "citation": "Kline Struhl, Melissa. (2022). example-datasets (Github Repository). Available at https://github.com/psych-ds/example-datasets.",
      "variableMeasured":[
 		{"type": "PropertyValue",
 			"name": "sub_id",
