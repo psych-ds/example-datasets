@@ -15,3 +15,7 @@ We also used the same dataset as an example for how a publication package could 
 ### Files
 
 `data/study-safi-survey_data.csv` - raw data file of the SAFI survey
+
+### Validation
+
+2023-06-24: dataset successfully validated using the [Psych-DS Checker - SIPS 2022 Prototype](https://github.com/psych-ds/pds-validator-sips2022) and `dataset_description.json` validated with 0 warning and 0 errors using the [Schema.org validator](https://validator.schema.org)
