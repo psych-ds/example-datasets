@@ -8,4 +8,4 @@ This is the first document someone will read when they access your project! Writ
 
 * A list of what files can be found in this folder and what they are
 
-* Instructions for how to cite this datset/project. You can also put your citation information in `dataset_description.JSON`!
+* Instructions for how to cite this dataset/project. You can also put your citation information in `dataset_description.JSON`!
