@@ -1,0 +1,3 @@
+[codespell]
+skip = .git,*.pdf,*.svg,*.csv,*.tsv,codebook.html
+ignore-words-list = extraversion
