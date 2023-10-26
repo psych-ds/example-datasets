@@ -55,7 +55,7 @@ Look at the grey box again - it should now show the name of your new branch, ins
 
 This will open a new page with a place to drag and drop your folder. Once you drag it in, look underneath the file area, where you will see a list of the new files you have added, and below that, the box to `commit`, or save, these changes to your branch. 
 
-![closeup screenshot of commit form](commit-changes.png)
+![closeup screenshot of commit form](img/commit-changes.png)
 
 Give your commit a short name and include any comments for us in the description box. Leave the button selected that says 'Commit directly to the `yourbranchname` branch' as it is, and click "Commit changes". 
 
@@ -63,15 +63,15 @@ Give your commit a short name and include any comments for us in the description
 
 You will be returned to the main repository page, still on `yourbranchname` rather than `main`. There should now be a message right at the top with a button saying "Compare & pull request", which you should click.
 
-![screenshot of pull request message](pull-request-prompt.png)
+![screenshot of pull request message](img/pull-request-prompt.png)
 
 This will take you to the pull request form.  At the top of this page, you will see two branch names, with an arrow showing what is happening: you are asking the `main` branch to review the changes on `yourbranchname` and pull them into the `main` branch. Again, give this a short name and a longer description if you like, then click "Create pull request". 
 
-![screenshot of pull request form](pull-request-form.png)
+![screenshot of pull request form](img/pull-request-form.png)
 
 That's it! You will be taken to the pull request page, which will show your pull request along with any other open PRs:
 
-![pull request page screenshot](pull-request-result.png)
+![pull request page screenshot](img/pull-request-result.png)
 
 We are notified automatically of new pull requests, so you won't need to anything else to let us know about it.  Keep an eye on your email or on this pull request URL - we will write comments back to you if we have any questions before merging your changes!
 
