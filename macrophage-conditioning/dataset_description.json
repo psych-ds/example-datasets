@@ -1,0 +1,75 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "name": "Learning in a simple biological system: a pilot study of classical conditioning of human macrophages in vitro",
+    "description": "Learning in a simple biological system: a pilot study of classical conditioning of human macrophages in vitro",
+    "schemaVersion": "Psych-DS 0.4.0",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "Gustav Nilsonne"
+        },
+        {
+            "@type": "Person",
+            "name": "Alva Appelgren"
+        },
+        {
+            "@type": "Person",
+            "name": "John Axelsson"
+        },
+        {
+            "@type": "Person",
+            "name": "Mats Fredrikson"
+        },
+        {
+            "@type": "Person",
+            "name": "Mats Lekander"
+        }
+    ],
+    "citation": "Nilsonne, G., Appelgren, A., Axelsson, J. et al. Learning in a simple biological system: a pilot study of classical conditioning of human macrophages in vitro. Behav Brain Funct 7, 47 (2011).",
+    "sameAs": "https://doi.org/10.1186/1744-9081-7-47",
+    "temporalCoverage": "2008-07-15/2011-12-18",
+    "keywords": [
+        "associative learning",
+        "conditioning",
+        "habituation",
+        "in vitro",
+        "monocyte",
+        "macrophage",
+        "lipopolysaccharide",
+        "streptomycin",
+        "interleukin-6"
+    ],
+    "variableMeasured": [
+        {
+            "type": "PropertyValue",
+            "unitText": "Group",
+            "name": "group",
+            "description": "The type of stimulus received. Group 1: training=CS+UCS - evocation=CS. Group 2: training=CS+UCS - evocation=none. Group 3: training=CS - evocation=none. Group 4: training=CS - evocation=CS. Group 5: training=UCS - evocation=none. Group 6: training=UCS - evocation=CS. Group 7: training=none - evocation=none."
+        },
+        {
+            "type": "PropertyValue",
+            "unitText": "Donor/Strand",
+            "name": "donor_strand",
+            "description": "The donor of the macrophages id and strand number combined."
+        },
+        {
+            "type": "PropertyValue",
+            "unitText": "Measurement",
+            "name": "measurement",
+            "description": "The measurement number for a given combination of donor/strand and group"
+        },
+        {
+            "type": "PropertyValue",
+            "unitText": "IL-6 secretion absolute (pg/ml)",
+            "name": "il6_secretion_abs",
+            "description": "The measured absolute secretion of IL-6 in pg/ml."
+        },
+        {
+            "type": "PropertyValue",
+            "unitText": "IL-6 secretion relative (fold change)",
+            "name": "il6_secretion_rel",
+            "description": "The measured relative secretion of IL-6 in fold change."
+        }
+    ]
+}
