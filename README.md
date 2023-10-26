@@ -4,11 +4,11 @@ This repository is the home for a series of datasets that are either ready to be
 
 Here is how to contribute to this repository - any of the steps below will be tremendously helpful to us!
 
-(1) **Try out a Psych-DS conversion** Choose a dataset you are comfortable sharing publicly. First, make a *separate* copy of the dataset (so you maintain the original version), and follow the [How-To](https://docs.google.com/document/d/1k3ZzAF8vrJeIcMN3q5g_l7WJtoybokvq5ueYVH0dcC8/edit?usp=sharing) document to convert it to Psych-DS format. (You can also follow these instructions for a private dataset you don't intend to upload.) However far you get, leave comments on the google doc where the instructions aren't clear. We'll iterate so it provides *helpful* instructions for someone using the specification for the first time. 
+(1) **Try out a Psych-DS conversion:** Choose a dataset you are comfortable sharing publicly. First, make a *separate* copy of the dataset (so you maintain the original version), and follow the [How-To](https://docs.google.com/document/d/1k3ZzAF8vrJeIcMN3q5g_l7WJtoybokvq5ueYVH0dcC8/edit?usp=sharing) document to convert it to Psych-DS format. (You can also follow these instructions for a private dataset you don't intend to upload.) However far you get, leave comments on the google doc where the instructions aren't clear. We'll iterate so it provides *helpful* instructions for someone using the specification for the first time. 
 
 (2) **Add datasets to this repository** by following the instructions below OR by emailing Melissa Kline Struhl (mekline@mit.edu) if you want to contribute or modify a dataset and aren't familiar with GithHub. If you like, add folders for both your originally structured data and the Psych-DS version - right now, both types are extremely helpful for us, because we are testing how the validator performs on different kinds of data. If you do this, please name your folders like this: `mydatasetname-original` and `mydatasetname-psychds`.
 
-(3) If you contribute a dataset, make sure to also add yourself to the [list of guinea pig datasets](https://docs.google.com/spreadsheets/d/1QcfJqGPyBkdO0n4rCcye-Nfb3XWRYETOF3NMbwwPyJ4/edit?usp=sharing)!
+(3) **Get credit for your contributions:** If you contribute a dataset, make sure to also add yourself to the [list of guinea pig datasets](https://docs.google.com/spreadsheets/d/1QcfJqGPyBkdO0n4rCcye-Nfb3XWRYETOF3NMbwwPyJ4/edit?usp=sharing)!
 
 Anyone can contribute to this project! Please have a look at the [Psych-DS code of conduct](https://github.com/psych-ds/psych-DS/blob/master/CODE_OF_CONDUCT.md) for our community guidelines, and feel free to email Melissa Kline Struhl (mekline@mit.edu) with any questions about the guinea pig datasets or Psych-DS more generally.  
 
@@ -31,11 +31,19 @@ Anyone can contribute to this project! Please have a look at the [Psych-DS code 
 
 # How to add to this repository
 
-(1) **Make a github account** if you don't already have one. Github is a wide-ranging suite of tools, but today you will be using it to drag and drop a single folder into your browser.  You will do this by
+## (1) **Make a github account** 
+
+...if you don't already have one. Github is a wide-ranging suite of tools, but today you will be using it to drag and drop a single folder into your browser.  You will do this by
 
 - Creating a *branch* (version of the repository)
-- Adding your folder to the branch
-- Creating a *pull request*, which asks the creators of this repository to look at your branch, and merge the new changes into the main version of the repository. 
+- Adding your folder to this branch and saving your work
+- Creating a *pull request*, which asks the creators of this repository to look at your branch, and merge the new changes into the main version of the repository.
+
+## (2) Create a branch
+
+## (3) Add your folder
+
+## (4) Make a pull request
 
 
 # Tips & resources
