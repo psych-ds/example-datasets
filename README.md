@@ -31,6 +31,7 @@ Anyone can contribute to this project! Please have a look at the [Psych-DS code 
 * BFI - Ioanna Iro Eleftheriadou
 * Object Orientation - Sau-Chin Chen
 * Macrophage Conditioning - Love Ahnström
+* Safi Survey - Eduard Klapwijk
 
 # How to add to this repository
 
