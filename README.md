@@ -1,6 +1,8 @@
 # example-datasets
 
-This repository is the home for a series of datasets that are either ready to be updated to the Psych-DS specification, or which have been updated (pending availability of actual validation!) These datasets will (initially) help us discover practical challenges and remaining ambiguities in the specification and (later) provide a series of examples that can be used by researchers looking for examples & templates, and for developers looking to test code (e.g. the validator!) over real data.
+This repository is the home for a series of datasets that are either ready to be updated to the Psych-DS specification, or which have been updated (pending availability of actual validation!) Because this project is in process, you should currently *not* assume that any one of these datasets is valid Psych-DS.  If you are looking for a template to start from, use `template-dataset/` (Pending some updates Oct 2023). 
+
+These datasets will (initially) help us discover practical challenges and remaining ambiguities in the specification and (later) provide a series of examples that can be used by researchers looking for examples & templates, and for developers looking to test code (e.g. the validator!) over real data.
 
 Here is how to contribute to this repository - any of the steps below will be tremendously helpful to us!
 
