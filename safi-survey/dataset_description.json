@@ -1,0 +1,88 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "schemaVersion": "Psych-DS 0.1.0",
+    "name": "SAFI (Studying African Farmer-Led Irrigation)",
+    "description": "Project about farming and irrigation methods. This is survey data relating to households and agriculture in Tanzania and Mozambique. The survey data was collected through interviews conducted between November 2016 and June 2017. The survey covered such things as; household features (e.g. construction materials used, number of household members), agricultural practices (e.g. water usage), assets (e.g. number and types of livestock) and details about the household members. Original data: Woodhouse, Philip; Veldwisch, Gert Jan; Brockington, Daniel; Komakech, Hans C.; Manjichi, Angela; Venot, Jean-Philippe (2018). SAFI Survey Results. figshare. Dataset. https://doi.org/10.6084/m9.figshare.6262019.v4",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Eduard Klapwijk",
+            "@id": "https://orcid.org/0000-0002-8936-0365"
+        }
+    ],
+    "url": "https://doi.org/10.5281/zenodo.7956600",
+    "citation": "Klapwijk, Eduard, Sunami, Nami, Mania, Joanna, Lushaj, Bora, & Volkova, Anna. (2023). EUR publication package example [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7956600",
+    "variableMeasured": [
+        {
+            "type": "PropertyValue",
+            "name": "key_ID",
+            "description": "Unique Id for each observation"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "village",
+            "description": "Village name"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "interview_date",
+            "description": "Date of interview"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "no_membrs",
+            "description": "Number of household members"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "years_liv",
+            "description": "Number of years living in a given village"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "respondent_wall_type",
+            "description": "Type of wall in the house"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "rooms",
+            "description": "Number of rooms for sleeping"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "memb_assoc",
+            "description": "Membership irrigation association"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "affect_conflicts",
+            "description": "Frequency affected by a conflict"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "liv_count",
+            "description": "Livestock count"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "items_owned",
+            "description": "Items owned by a household"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "no_meals",
+            "description": "Number of meals per day"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "months_lack_food",
+            "description": "Month with no food available"
+        },
+        {
+            "type": "PropertyValue",
+            "name": "instanceID",
+            "description": "Unique identifier for the form data submission"
+        }
+    ]
+}
