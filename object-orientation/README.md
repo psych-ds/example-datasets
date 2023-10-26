@@ -6,16 +6,16 @@ This project evaluate the replicability of object orientation effect across lang
 
 **STI_LIST.xls**: The sheets of all materials and stimuli lists. 
     - *STI*: Collection of all critical stimuli. `Picture_H`: File names of object pictures presented in horizontal; `Picture_V`: File names of object pictures presented in vertical; `XXX_Sentence_H`: Sentences implied the horizontal orientation of the target object; `XXX_Sentence_V`: Sentences implied the vertical orientation of the target object. XXX stands for the which language the sentences written in.
-    - *Fillers*: Collection of all filler stimuli. `Picture_Fillers_A` and `Picture_Fillers_B`: File names of object pictures which are irrelevant to the corresponding sentences; `XXX_Sentence_Fillers_A` and `XXX_Sentence_Fillers_B`: Sentences which do not imply the particular orientation of object; XXX stands for the which language the sentences written in.
+    - *Fillers*: Collection of all filler stimuli. `Picture_Fillers_A` and `Picture_Fillers_B`: File names of object pictures which are irrelavent to the corresponding sentences; `XXX_Sentence_Fillers_A` and `XXX_Sentence_Fillers_B`: Sentences which do not imply the particular orientation of object; XXX stands for the which language the sentences written in.
     - *Prac1* and *Prac2*: Stimuli list of practice trials. 
     - *XXX_LIST1*, *XXX_LIST2*, *XXX_LIST3*, and *XXX_LIST4*: Stimuli lists of experimental trials for sentence-picture verification. XXX stands for the which language the sentences written in.
     - *PP_LIST1*, *PP_LIST2*, *PP_LIST3*, and *PP_LIST4*: Stimuli lists of experimental trials for picture-picture verification. 
     
 **LAB_processing.R**: R script which merge raw data and filter the variables to be analyzed. There will be three csv files created in the folder `raw_data`: `ID_SP_V.csv`,`ID_SP_M.csv`, and `ID_PP.csv`. `ID` stands for the specific ID for the study site. This script is for the processing of the data from one study site.
 
-**OrientationCrossLanguages_2018PSA_SP_1.2.0.osexp**: Opensesame script of sentence-picture verification task for one study site. The instructions and materials will be translated to the site language before the beginning.
+**OrientationCrossLanguages_2018PSA_SP_1.2.0.osexp**: Opensesame script of sentence-picture verification task for one study site. The instructions and materials will be translated to the site langauge before the beginning.
 
-**OrientationCrossLanguages_2018PSA_PP_1.2.0.osexp**: Opensesame script of picture-picture verification task for one study site. The instructions and materials will be translated to the site language before the beginning.
+**OrientationCrossLanguages_2018PSA_PP_1.2.0.osexp**: Opensesame script of picture-picture verification task for one study site. The instructions and materials will be translated to the site langauge before the beginning.
 
 ## Codebooks of data files
 - **ID_SP_V.csv**
