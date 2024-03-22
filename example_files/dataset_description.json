@@ -1,0 +1,7 @@
+{
+    "@type":"Dataset",
+    "@context":"https://schema.org/",
+    "name":"Example Dataset",
+    "description":"This is an example",
+    "variableMeasured":["a","b","c"]
+}
