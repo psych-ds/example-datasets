@@ -1,0 +1,49 @@
+Orientation,Match,Probe,Target,correct_response,Task
+H,Y,The lumberjack left his axe sticking in the top of the stump after winning the axe toss.,axeH.jpg,j,V
+H,Y,Derek swung his bat as the ball approached.,batH.jpg,j,V
+H,Y,The librarian put the book back on the table.,bookH.jpg,j,V
+H,Y,"Jessica stuck the bottle in the wine rack, anticipating a romantic evening.",bottleH.jpg,j,V
+H,Y,James placed the bowl into an open space in the cabinet.,bowlH.jpg,j,V
+H,Y,"Janie grabbed the broom and rode it around the house, pretending it was her horse.",broomH.jpg,j,V
+H,N,"The teenager placed her brush in the bottom of her bag, looking forward to the party.",brushV.jpg,j,V
+H,N,The caterpillar inched along the tree branch.,caterpillarV.jpg,j,V
+H,N,The toddler drew a kitty cat with his crayon on his bedroom door.,crayonV.jpg,j,V
+H,N,Laura threw the decoration in the drawer with the clothespin.,clothespinV.jpg,j,V
+H,N,The hunter shone the flashlight into the mouth of the cavern.,flashV.jpg,j,V
+H,N,The race car driver fastened the fire-extinguisher under his seat.,fire_extinguisherV.jpg,j,V
+V,Y,The waiter filled the wineglass while admiring Maureen's gown.,glassV.jpg,j,V
+V,Y,Mick set his guitar on the rack as he warmed up for the concert.,guitarV.jpg,j,V
+V,Y,"Frank placed the iron onto the shelf, hoping he wouldn't be late.",ironV.jpg,j,V
+V,Y,The lab assistant put the key to the monkey cage on the hook.,keyV.jpg,j,V
+V,Y,The carpenter hammered the nail into the floor plank.,nailV.jpg,j,V
+V,Y,Rick hurriedly stuck his pencil in the coffee mug.,pencilV.jpg,j,V
+V,N,The accountant stuck his pen into his pocket protector.,penH.jpg,j,V
+V,N,Sara situated the expensive plate on its holder on the shelf.,plateH.jpg,j,V
+V,N,The anxious little boy placed the salt shaker onto the table.,saltH.jpg,j,V
+V,N,Jim prepared to insert the screw into the top of the cabinet.,screwH.jpg,j,V
+V,N,Becca used the scissors to carve her initials into the wet concrete.,scssorH.jpg,j,V
+V,N,The young husband prepared to place the spare tire onto the wheel.,tireH.jpg,j,V
+F,F,The doctor turned the faucet to wash his hands.,spider.jpg,f,V
+F,F,The frog caught a fly using its tongue.,stove.jpg,f,V
+F,F,The forensic investigator found the suspect's fingerprints on the shovel which was the murder weapon.,ladder.jpg,f,V
+F,F,Duff played his bagpipe at odd hours causing his neighbors to complain.,knife.jpg,f,V
+F,F,The desperate chess player sacrificed a pawn for a stronger position.,tlphon.jpg,f,V
+F,F,Tim saw the elephant pulling down a tree with his trunk.,wndmil.jpg,f,V
+F,F,The archeologist studied the hieroglyphs on the tombstone.,mitten.jpg,f,V
+F,F,After a week the painting arrived by mail.,ftball.jpg,f,V
+F,F,Justin appeared on the balcony and immediately the fans started screaming.,wrench.jpg,f,V
+F,F,The ant walked towards the pot of honey and tried to climb in.,sutcse.jpg,f,V
+F,F,"Harry gave his girlfriend a beautiful ring, hoping she would say yes.",house.jpg,f,V
+F,F,Abby had a swiss army knife with many nifty tools.,watch.jpg,f,V
+F,F,The plumber noticed that the pipe had many leaks and needed replacement.,couch.jpg,f,V
+F,F,In the park a bison ran towards them.,ring.jpg,f,V
+F,F,Bert drove his truck from the harbor to downtown.,piano.jpg,f,V
+F,F,The builder pushed the wheelbarrow towards the pile of bricks.,trmpet.jpg,f,V
+F,F,When the gym teacher took out his stopwatch all students started whining.,needle.jpg,f,V
+F,F,Because the newborn cub was on display the zoo was more crowded than usual.,skirt.jpg,f,V
+F,F,Susan wished that her parents had a swimming pool in their back yard.,pumpkin.jpg,f,V
+F,F,The colorful puzzle was much harder than the little boy had expected.,nut.jpg,f,V
+F,F,The mother put the carrot in her daughter's lunch bag.,tiger.jpg,f,V
+F,F,Penny threw the plant across the living room at Sheldon.,tapedispenser.jpg,f,V
+F,F,Boris put the candle on the table when he heard his girlfriend's car on the driveway.,umberella.jpg,f,V
+F,F,The elderly man took his hat off and sat down in the chair.,buggy.jpg,f,V

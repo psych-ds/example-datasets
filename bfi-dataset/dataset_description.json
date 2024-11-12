@@ -247,6 +247,66 @@
       "name": "plasticity",
       "description": "10  items aggregated by rowMeans",
       "@type": "PropertyValue"
+    },
+    {
+      "name": "A1",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "C4",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "C5",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "E1",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "E2",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "N1",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "N2",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "N3",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "N4",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "N5",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "O2",
+      "description": "n/a",
+      "@type": "PropertyValue"
+    },
+    {
+      "name": "O5",
+      "description": "n/a",
+      "@type": "PropertyValue"
     }
   ]
 }
