@@ -1,0 +1,49 @@
+Orientation,Match,Probe,Target,correct_response,Task
+V,N,The lumberjack left his axe sticking in the side of the stump after winning the axe toss.,axeH.jpg,j,V
+V,N,Derek held his bat high as the ball approached.,batH.jpg,j,V
+V,N,The librarian put the book back on the shelf.,bookH.jpg,j,V
+V,N,"Jessica stuck the bottle in the ice, anticipating a romantic evening.",bottleH.jpg,j,V
+V,N,James placed the bowl into an open slot in the dishwasher.,bowlH.jpg,j,V
+V,N,"Janie grabbed the broom and swept the house, pretending she was Cinderella.",broomH.jpg,j,V
+V,Y,"The teenager held her brush up like a microphone, pretending to be a famous rock star.",brushV.jpg,j,V
+V,Y,The caterpillar inched along the lamp post.,caterpillarV.jpg,j,V
+V,Y,The toddler drew a kitty cat with his crayon on his bedroom floor.,crayonV.jpg,j,V
+V,Y,Laura hung the decoration on the line with the clothespin.,clothespinV.jpg,j,V
+V,Y,The hunter shone the flashlight onto the floor of the cavern.,flashV.jpg,j,V
+V,Y,The race car driver fastened the fire-extinguisher onto the garage wall.,fire_extinguisherV.jpg,j,V
+H,N,The waiter knocked over the wineglass while admiring Maureen's gown.,glassV.jpg,j,V
+H,N,Mick strummed his guitar as he warmed up for the concert.,guitarV.jpg,j,V
+H,N,"Frank pressed the iron onto his pants, hoping he wouldn't be late.",ironV.jpg,j,V
+H,N,The lab assistant put the key to the monkey cage in the lock.,keyV.jpg,j,V
+H,N,The carpenter hammered the nail into the wall.,nailV.jpg,j,V
+H,N,Rick hurriedly stuck his pencil in the desk drawer.,pencilV.jpg,j,V
+H,Y,The accountant stuck his pen behind his ear.,penH.jpg,j,V
+H,Y,Sara situated the expensive plate on its mat on the table.,plateH.jpg,j,V
+H,Y,The anxious little boy knocked the salt shaker over onto the table.,saltH.jpg,j,V
+H,Y,Jim prepared to insert the screw into the side of the cabinet.,screwH.jpg,j,V
+H,Y,Becca used the scissors to carve her initials into the tree.,scssorH.jpg,j,V
+H,Y,The young husband prepared to place the spare tire into the trunk.,tireH.jpg,j,V
+F,F,The skier took off his gloves after the exhilarating run.,couch.jpg,f,V
+F,F,The coach threw his water bottle on the ground in anger.,ftball.jpg,f,V
+F,F,Melissa volleyed the ball over the net.,house.jpg,f,V
+F,F,The janitor replaced the battery in the fire alarm.,ladder.jpg,f,V
+F,F,The taxi driver handed the receipt to the complaining passenger.,knife.jpg,f,V
+F,F,The excited dog had dropped its bone on the carpet.,mitten.jpg,f,V
+F,F,"Calmly, the sniper mounted the scope on his rifle.",needle.jpg,f,V
+F,F,The flowers that were planted last week had survived the storm.,nut.jpg,f,V
+F,F,The bartender poured another scotch for the salesman.,piano.jpg,f,V
+F,F,A turtle was resting on a log across the pond.,pumpkin.jpg,f,V
+F,F,Ted showed off his new motor cycle to his friends.,ring.jpg,f,V
+F,F,Chad had bought a new shirt that his wife didn't like.,skirt.jpg,f,V
+F,F,George put his cell phone in the pocket of his trench coat.,spider.jpg,f,V
+F,F,The swimmers were startled by the alligator.,stove.jpg,f,V
+F,F,Denise bought a ticket for the subway.,sutcse.jpg,f,V
+F,F,The todler rode his tricycle around and around.,tapedispenser.jpg,f,V
+F,F,The photographer told the model to lie down in the sand.,tiger.jpg,f,V
+F,F,"Because the roads were icy, Jeff decided to work at home today.",tlphon.jpg,f,V
+F,F,Clarissa hoped that she would get a red bike for her birthday.,trmpet.jpg,f,V
+F,F,Grandmother baked a pancake for her granddaughter.,watch.jpg,f,V
+F,F,The tour guide led his group to the top of the amphitheatre.,wndmil.jpg,f,V
+F,F,The monkey effortlessly climbed up the tree to eat his banana.,wrench.jpg,f,V
+F,F,The thirsty mountain biker refilled his bottle at the waterfountain.,flower.jpg,f,V
+F,F,The mechanic replaced the tires on the vintage automobile.,glass.jpg,f,V
