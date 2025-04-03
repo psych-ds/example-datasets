@@ -1,14 +1,22 @@
 # Example Datasets for Psych-DS
 
-This is a gallery of public datasets which have been formatted according to the (Psych-DS data specification)[https://psychds-docs.readthedocs.io/en/latest/guides/1_getting_started/]. They primarily come from various subfields of psychology, and at the moment (early 2025) are primarily either versions of datasets that are freely available elsewhere online, or templates designed to help people create new Psych-DS datasets.
+This is a gallery of public datasets which have been formatted* according to the [Psych-DS data standard](https://psychds-docs.readthedocs.io/en/latest/guides/1_getting_started/). They primarily come from various subfields of psychology, and at the moment (early 2025) are primarily either versions of datasets that are freely available elsewhere online, or templates designed to help people create new Psych-DS datasets.
 
-You can browse them to learn more about how Psych-DS works, download a dataset to try out the [Psych-DS in-browser validator](https://psych-ds.github.io/validator/), or use them as test cases to develop tools that are designed to work with Psych-DS data.
+You can browse these datasets to learn more about how Psych-DS works, download one to try out the [Psych-DS in-browser validator](https://psych-ds.github.io/validator/), or use them as test cases to develop tools that are designed to work with Psych-DS data.
 
-*Note that there is one dataset in this repository that will *not* successfully validate: `informative-mistakes-dataset/`, because it is a small example designed to show various kinds of mistakes that will cause a dataset to fail validation. Check out its companion `mistakes-corrected-dataset/` for a version that passes validation!*
+Anyone can contribute to this project! Please have a look at the [Psych-DS code of conduct](https://github.com/psych-ds/psych-DS/blob/master/CODE_OF_CONDUCT.md) for our community guidelines, and feel free to email Melissa Kline Struhl (mekline@mit.edu) with any questions about these datasets or Psych-DS more generally.  
 
-[anchor example](#anchor-name)
+**Status update**: Currently rewriting this document in preparation for wider Psych-DS release. Datasets still need to be updated/checked in the current validator. (2025-04-03)
 
-## List of datasets
+**Note that there is one dataset in this repository that will *not* successfully validate: `informative-mistakes-dataset/`. That one is a small example designed to show various kinds of mistakes that will cause a dataset to fail validation. Check out its companion `mistakes-corrected-dataset/` for a version that passes validation!*
+
+[List of datasets](#anchor-1)
+
+[How to contribute a dataset](#anchor-2)
+
+[More about Psych-DS and additional resources](#anchor-3)
+
+## <a name="anchor-1">List of datasets</a>
 
 #### Datasets designed for testing the specification
 
@@ -23,15 +31,30 @@ You can browse them to learn more about how Psych-DS works, download a dataset t
 * Macrophage Conditioning - Love Ahnström
 * Safi Survey - Eduard Klapwijk
 
-## How to contribute a dataset
+## <a name="anchor-2">How to contribute a dataset</a>
 
 BRIAN TO UPDATE
 
-## More about Psych-DS
+## <a name="anchor-3">More about Psych-DS/additional resources</a>
 
-MKS TO UPDATE
+Psych-DS is a community data standard for research in psychology and other behavioral sciences, which provides a flexible set of conventions for formatting and documenting scientific datasets. It is heavily inspired by the [Brain Image Data Structure (BIDS)](https://bids.neuroimaging.io/) standard for fMRI data.
 
+Psych-DS provides a simple and easy-to-adopt standard for organizing data in the psychological and behavioral sciences, which aims to help researchers satisfy [FAIR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/) principles for data sharing.
 
+* Return to the [Psych-DS homepage](https://psych-ds.github.io/).
+
+* Browser-based [Psych-DS Validator](https://psych-ds.github.io/validator/)(!)
+
+* [Psych-DS Documentation](https://psychds-docs.readthedocs.io/en/latest/guides/1_getting_started/)
+
+* [Article on the Schema.org Dataset structure](https://developers.google.com/search/docs/data-types/dataset). Click 'See Markup' under Examples for a pre-populated set of dataset JSON you can play with and validate against!
+*
+*
+*
+*
+*
+
+Everything below here is a previous draft and not up to date!
 
 *
 *
@@ -39,19 +62,9 @@ MKS TO UPDATE
 *
 *
 
-# HISTORIC INFO - example-datasets
+# example-datasets
 
 
-
-Here is how to contribute to this repository - any of the steps below will be tremendously helpful to us!
-
-(1) **Try out a Psych-DS conversion:** Choose a dataset you are comfortable sharing publicly. First, make a *separate* copy of the dataset (so you maintain the original version), and follow the [How-To](https://docs.google.com/document/d/1k3ZzAF8vrJeIcMN3q5g_l7WJtoybokvq5ueYVH0dcC8/edit?usp=sharing) document to convert it to Psych-DS format. (You can also follow these instructions for a private dataset you don't intend to upload.) However far you get, leave comments on the google doc where the instructions aren't clear. We'll iterate so it provides *helpful* instructions for someone using the specification for the first time. 
-
-(2) **Add datasets to this repository** by following the instructions below. If you like, add folders for both your originally structured data and the Psych-DS version - right now, both types are extremely helpful for us, because we are testing how the validator performs on different kinds of data. If you do this, please name your folders like this: `mydatasetname-original` and `mydatasetname-psychds`.
-
-(3) **Get credit for your contributions:** If you contribute a dataset, make sure to also add yourself to the [list of guinea pig datasets](https://docs.google.com/spreadsheets/d/1QcfJqGPyBkdO0n4rCcye-Nfb3XWRYETOF3NMbwwPyJ4/edit?usp=sharing)!
-
-Anyone can contribute to this project! Please have a look at the [Psych-DS code of conduct](https://github.com/psych-ds/psych-DS/blob/master/CODE_OF_CONDUCT.md) for our community guidelines, and feel free to email Melissa Kline Struhl (mekline@mit.edu) with any questions about the guinea pig datasets or Psych-DS more generally.  
 
 
 
@@ -101,18 +114,8 @@ That's it! You will be taken to the pull request page, which will show your pull
 
 We are notified automatically of new pull requests, so you won't need to anything else to let us know about it.  Keep an eye on your email or on this pull request URL - we will write comments back to you if we have any questions before merging your changes!
 
-# Tips & resources
 
-* [Article on the Schema.org Dataset structure](https://developers.google.com/search/docs/data-types/dataset). Click 'See Markup' under Examples for a pre-populated set of dataset JSON you can play with and validate against!
 
-* [Maastricht Fair Data Wizard](https://maastrichtu-ids.github.io/fair-metadata-wizard/)
 
-* Doomlab and rOpenSci dataspice apps
-
-* Codebook by Ruben Arslan
-
-* Probably many others! Please add to the How-To document when you use them!
-
-* <a name="anchor-name">HOPEFULLY AN ANCHOR</a>
 
 
