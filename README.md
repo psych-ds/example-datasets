@@ -1,8 +1,47 @@
-# example-datasets
+# Example Datasets for Psych-DS
 
-This repository is the home for a series of datasets that are either ready to be updated to the Psych-DS specification, or which have been updated (pending availability of actual validation!) Because this project is in process, you should currently *not* assume that any one of these datasets is valid Psych-DS.  If you are looking for a template to start from, use `template-dataset/` (Pending some updates Oct 2023). 
+This is a gallery of public datasets which have been formatted according to the (Psych-DS data specification)[https://psychds-docs.readthedocs.io/en/latest/guides/1_getting_started/]. They primarily come from various subfields of psychology, and at the moment (early 2025) are primarily either versions of datasets that are freely available elsewhere online, or templates designed to help people create new Psych-DS datasets.
 
-These datasets will (initially) help us discover practical challenges and remaining ambiguities in the specification and (later) provide a series of examples that can be used by researchers looking for examples & templates, and for developers looking to test code (e.g. the validator!) over real data.
+You can browse them to learn more about how Psych-DS works, download a dataset to try out the [Psych-DS in-browser validator](https://psych-ds.github.io/validator/), or use them as test cases to develop tools that are designed to work with Psych-DS data.
+
+*Note that there is one dataset in this repository that will *not* successfully validate: `informative-mistakes-dataset/`, because it is a small example designed to show various kinds of mistakes that will cause a dataset to fail validation. Check out its companion `mistakes-corrected-dataset/` for a version that passes validation!*
+
+[anchor example](#anchor-name)
+
+## List of datasets
+
+#### Datasets designed for testing the specification
+
+* Template, Complex-Metadata, Informative-Mistakes and Mistakes-Corrected datasets - Melissa Kline Struhl, updated by Brian Leonard
+  
+#### Real datasets contributed by researchers
+
+* NIH reviews - Patrick S. Forscher
+* Faces and Bodies - Lisa DeBruine
+* BFI - Ioanna Iro Eleftheriadou
+* Object Orientation - Sau-Chin Chen
+* Macrophage Conditioning - Love Ahnström
+* Safi Survey - Eduard Klapwijk
+
+## How to contribute a dataset
+
+BRIAN TO UPDATE
+
+## More about Psych-DS
+
+MKS TO UPDATE
+
+
+
+*
+*
+*
+*
+*
+
+# HISTORIC INFO - example-datasets
+
+
 
 Here is how to contribute to this repository - any of the steps below will be tremendously helpful to us!
 
@@ -14,24 +53,7 @@ Here is how to contribute to this repository - any of the steps below will be tr
 
 Anyone can contribute to this project! Please have a look at the [Psych-DS code of conduct](https://github.com/psych-ds/psych-DS/blob/master/CODE_OF_CONDUCT.md) for our community guidelines, and feel free to email Melissa Kline Struhl (mekline@mit.edu) with any questions about the guinea pig datasets or Psych-DS more generally.  
 
-## Status
 
-*We are actively seeking volunteers* to upload their source_data/ files to this repo, then modify them to meet the Psych-DS specification. 
-
-## Datasets currently in here
-
-### Datasets designed for testing the specification
-
-* Template, Complex-Metadata, Informative-Mistakes and Mistakes-Corrected datasets - Melissa Kline Struhl
-  
-### Real datasets contributed by researchers
-
-* NIH reviews - Patrick S. Forscher
-* Faces and Bodies - Lisa DeBruine
-* BFI - Ioanna Iro Eleftheriadou
-* Object Orientation - Sau-Chin Chen
-* Macrophage Conditioning - Love Ahnström
-* Safi Survey - Eduard Klapwijk
 
 # How to add to this repository
 
@@ -90,5 +112,7 @@ We are notified automatically of new pull requests, so you won't need to anythin
 * Codebook by Ruben Arslan
 
 * Probably many others! Please add to the How-To document when you use them!
+
+* <a name="anchor-name">HOPEFULLY AN ANCHOR</a>
 
 
