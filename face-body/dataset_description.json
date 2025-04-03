@@ -21,5 +21,5 @@
         "faces",
         "bodies"
     ],
-    "variableMeasured": []
+    "variableMeasured": ["stimulus name","stimulus sex","age","height(cm)","weight(kg)","BMI","chest(cm)","waist(cm)","hips(cm)","user_id","sex","sexpref","alexandra","anastazie","anezka","bera","bohdana","brenda","carol","christianne","dagmar","debra","dobromila","dusana","edita","eleanora","elena","eugenia","evzenie","gabriela","gejza","ida","ingrid","irena","jindriska","jitka","karina","kordula","lea","linda","livia","lujza","margita","marika","matylda","miloslava","milota","miriama","peggy","perla","radmila","sarlota","saskie","sidonia","stela","tamara","ursula","viktoria","viola","vladena","zelmira","zlata","andrej","aurel","bernard","blazej","boris","bretislav","bystrik","cenek","cestmir","cornelius","cyril","dalimil","denis","dionyz","dominik","drahomir","elias","ferdinand","gabriel","hanus","henrich","hynek","josef","justin","kamil","kazimir","leonard","libor","lumir","maxim","mike","milos","mojmir","moric","oleg","oliver","patrik","prokop","ramiro","rehor","rudolf","sobeslav","stefan","svatopluk","tichomir","tomasi","valer","vasil","vendelin","vladislav","judgment","stimulus_sex","type","rater_sex","rater_age"]
 }
