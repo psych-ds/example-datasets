@@ -37,7 +37,7 @@ Anyone can contribute to this project! Please have a look at the [Psych-DS code 
 
 First, you'll need to create a properly structured dataset following the Psych-DS format. You can find detailed instructions for how to do this in the [Getting Started guide](https://psychds-docs.readthedocs.io/en/latest/guides/1_getting_started/) from the Psych-DS docs. 
 
-Within the metadata file for your dataset, make sure to include a note in the description field with the date that you'll be uploading this dataset to our repository. It is also best to fill the Author field with information about yourself and your fellow authors. If you are not the author of the dataset, feel free to include your name in your description note as the uploader of the dataset.
+Within the metadata file for your dataset, make sure to include a note in the description field with the date that you'll be uploading this dataset to our repository. It is also best to fill the Author field with information about yourself and your fellow authors. If you are not the author of the dataset, you can include your identity in the metadata by adding yourself in the "sdPublisher" field.
 
 Here's a simplified example metadata file:
 
@@ -53,6 +53,12 @@ Here's a simplified example metadata file:
     "givenName": "John",
     "familyName: "Doe",
     "id": "0000-0002-1825-0097" // this is an ORCID ID, e.g.
+  },
+  "sdPublisher": {
+    "@type": "Person",
+    "givenName": "Jane",
+    "familyName: "Doe",
+    "id": "0000-0002-3245-1127" // this is an ORCID ID, e.g.
   },
   "variableMeasured": [
     "participant_id",
