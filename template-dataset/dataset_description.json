@@ -59,6 +59,24 @@
                 "NA",
                 "No team"
             ]
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "sub_id",
+            "description": "subject ID"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "date",
+            "description": "Date when response was made"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "garment"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "yarn_color"
         }
     ]
 }
