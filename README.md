@@ -31,10 +31,130 @@ Anyone can contribute to this project! Please have a look at the [Psych-DS code 
 * Macrophage Conditioning - Love Ahnström
 * Safi Survey - Eduard Klapwijk
 
-## <a name="anchor-2">How to contribute a dataset</a>
+## <a name="anchor-2">How to contribute a dataset</a> 
 
-BRIAN TO UPDATE
+### Step 1: Prepare Your Dataset
 
+First, you'll need to create a properly structured dataset following the Psych-DS format. You can find detailed instructions for how to do this in the [Getting Started guide](https://psychds-docs.readthedocs.io/en/latest/guides/1_getting_started/) from the Psych-DS docs. 
+
+Within the metadata file for your dataset, make sure to include a note in the description field with the date that you'll be uploading this dataset to our repository. It is also best to fill the Author field with information about yourself and your fellow authors. If you are not the author of the dataset, you can include your identity in the metadata by adding yourself in the "sdPublisher" field.
+
+Here's a simplified example metadata file:
+
+```
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Visual Perception Study 2023",
+  "description": "This dataset contains results from a visual perception experiment conducted in 2023.
+                  Uploaded to the Psych-DS example repository on date XYZ",
+  "author": {
+    "@type": "Person",
+    "givenName": "John",
+    "familyName: "Doe",
+    "id": "0000-0002-1825-0097" // this is an ORCID ID, e.g.
+  },
+  "sdPublisher": {
+    "@type": "Person",
+    "givenName": "Jane",
+    "familyName: "Doe",
+    "id": "0000-0002-3245-1127" // this is an ORCID ID, e.g.
+  },
+  "variableMeasured": [
+    "participant_id",
+    "trial_number",
+    "stimulus_type",
+    "response_time_ms",
+    "accuracy"
+  ]
+}
+```
+
+### Step 2: Validate Your Dataset
+
+Before submitting, you must validate your dataset using the official Psych-DS validator:
+
+1. Visit the [Psych-DS Validator](https://psych-ds.github.io/validator/)
+2. Select your dataset directory
+3. Ensure that your dataset passes all validation checks
+4. If there are any errors, fix them and re-validate until your dataset passes all checks
+
+### Step 3: Submit Your Dataset via Pull Request
+
+Once your dataset is validated, you can submit it to our repository:
+
+#### Option A: Using GitHub in the Browser
+
+1. Fork the Psych-DS example datasets repository
+
+<img width="618" alt="sc1" src="https://github.com/user-attachments/assets/6718bd32-35da-4c71-b464-ca7df6cb7f97" />
+
+<img width="747" alt="sc2" src="https://github.com/user-attachments/assets/be0093ab-252c-4b9d-885c-adc27ec35186" />
+
+2. Navigate to your forked repository (it should send you there automatically, but otherwise it can be found under your account's repository list with the name "example-datasets"
+
+<img width="319" alt="sc3" src="https://github.com/user-attachments/assets/a738f3b7-3755-4bbc-a268-fa0c24d161fe" />
+
+3. Click "Add file" → "Upload files"
+
+<img width="479" alt="sc4" src="https://github.com/user-attachments/assets/8c2d4623-f202-4abd-8a0d-02ad63a99b54" />
+
+4. Drag and drop your entire dataset directory or use the file selector
+5. Add a commit message explaining what dataset you're adding
+6. Click "Commit changes"
+7. Edit the Readme file to include yourself in the contributors section and click "Commit changes"
+
+<img width="911" alt="sc5" src="https://github.com/user-attachments/assets/ce80e35c-da81-4e90-81c5-0f10f09806df" />
+
+<img width="400" alt="sc6" src="https://github.com/user-attachments/assets/3298f6c4-7334-4371-b856-4a7e68fe0d9a" />
+
+8. Navigate to the "Pull requests" tab and click "New pull request"
+
+<img width="510" alt="sc7" src="https://github.com/user-attachments/assets/2db93ece-d97a-43d4-8c92-eb3027def6e5" />
+
+Then:
+
+<img width="443" alt="sc8" src="https://github.com/user-attachments/assets/7c881fbc-3731-4c8b-87ba-99bb66b64d09" />
+
+9. Select "base repository: psych-ds/example-datasets" and "head repository: your-username/example-datasets"
+
+<img width="920" alt="sc10" src="https://github.com/user-attachments/assets/5234206f-707c-43a2-b9e1-57cfc0be1d60" />
+
+10. Click "Create pull request"
+11. Add a title and description for your PR
+12. Click "Create pull request"
+
+#### Option B: Using Git on the Command Line
+
+1. Fork the repository on GitHub
+2. Clone your forked repository:
+   ```
+   git clone https://github.com/your-username/example-datasets.git
+   ```
+3. Copy your dataset directory into the repository
+4. Add your name and the name of your dataset the contributors list of the README file
+5. Add your changes:
+   ```
+   git add .
+   ```
+6. Commit your changes:
+   ```
+   git commit -m "Add dataset: Visual Perception Study 2023"
+   ```
+7. Push to your fork:
+   ```
+   git push origin main
+   ```
+8. Go to GitHub and create a pull request from your new branch
+
+### What Happens After Submission?
+
+After submitting your PR:
+1. Our team will review your dataset
+2. We may request changes if needed
+3. Once approved, your dataset will be merged into the main repository
+4. Your name will appear in the contributors list
+   
 ## <a name="anchor-3">More about Psych-DS/additional resources</a>
 
 Psych-DS is a community data standard for research in psychology and other behavioral sciences, which provides a flexible set of conventions for formatting and documenting scientific datasets. It is heavily inspired by the [Brain Image Data Structure (BIDS)](https://bids.neuroimaging.io/) standard for fMRI data.
