@@ -81,7 +81,9 @@ Before submitting, you must validate your dataset using the official Psych-DS va
 
 ### Step 3: Submit Your Dataset via Pull Request
 
-Once your dataset is validated, you can submit it to our repository:
+Once your dataset is validated, you can submit it to our repository yourself by following the instructions below. 
+
+If you run into trouble, *please* feel free to open an issue on this repository (see the "Issues" tab at the top of this page) and we can help you out!!
 
 #### Option A: Using GitHub in the Browser
 
